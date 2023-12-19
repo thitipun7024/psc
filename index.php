@@ -12,7 +12,6 @@ if(isset($_GET["option"])){
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <?php include("header.php"); ?>
@@ -21,6 +20,8 @@ if(isset($_GET["option"])){
         <?php
         if($option == null){
             require_once "frmmain.php";
+        }elseif($option == "new"){
+            require_once "new.php";
         }
         ?>
     </div>

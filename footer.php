@@ -5,14 +5,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
 <footer class="bg-body-tertiary text-center text-lg-start">
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-8 col-lg-3">
+            <div class="col-md-12 col-lg-3 flex-column">
                 <div class="card border-0" style="background-color: rgba(0, 255, 255, 0);">
                     <div class="card-header border-0" style="background-color: rgba(0, 255, 255, 0);">
                         จำนวนสมาชิก
@@ -24,7 +23,7 @@
                 </div>
             </div>
 
-            <div class="col-md-8 col-lg-3">
+            <div class="col-md-12 col-lg-3 flex-column">
                 <div class="card border-0" style="background-color: rgba(0, 255, 255, 0);">
                     <div class="card-header border-0" style="background-color: rgba(0, 255, 255, 0);">
                         จำนวนสมาชิก
@@ -36,7 +35,7 @@
                 </div>
             </div>
 
-            <div class="col-md-8 col-lg-3">
+            <div class="col-md-12 col-lg-3 flex-column">
                 <div class="card border-0" style="background-color: rgba(0, 255, 255, 0);">
                     <div class="card-header border-0" style="background-color: rgba(0, 255, 255, 0);">
                         จำนวนสมาชิก
@@ -48,7 +47,7 @@
                 </div>
             </div>
 
-            <div class="col-md-8 col-lg-3">
+            <div class="col-md-12 col-lg-3 flex-column">
                 <div class="card border-0" style="background-color: rgba(0, 255, 255, 0);">
                     <div class="card-header border-0" style="background-color: rgba(0, 255, 255, 0);">
                         จำนวนสมาชิก
